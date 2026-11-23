@@ -1,0 +1,265 @@
+[messaging]: Executing command "workflow.run"
+26270.8cfeb13b.js:184 [messaging]: Executing command "_studio-analytics.track-event"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "_printing.get-print-service-url"
+26270.8cfeb13b.js:184 [events]: Event workflow.workflow-started published.
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::GetWorkflowInputs ($getWorkflowInputs1)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::GetApplicationData ($layerSettings)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::GetApplicationData ($layerSettings) --> {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::RunOperation ($identify)     {inputs: {…}, outputs: {…}}
+26270.8cfeb13b.js:184 [messaging]: Executing operation "tasks.identify"
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::RunOperation ($identify) --> {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::RunOperation ($graphics)     {inputs: {…}, outputs: {…}}
+226270.8cfeb13b.js:184 [messaging]: Executing command "_studio-analytics.track-event"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.to-graphics"
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::RunOperation ($graphics) --> {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Container (132)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($filters)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Evaluate ($subset)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Container (132)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::If (11)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::If (17)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Container (39)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Container (100)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::GetApplicationData ($plotSettings)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::GetApplicationData ($plotSettings) --> {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Container (92)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($id)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::If (154)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($value1)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Evaluate ($stasjoner_graphics)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($parameterMap)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Evaluate ($parametereFraAktivtLag)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::If (187)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($stasjonerMedAktivParameter)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::SetProperty (197)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::RunWorkflow ($run_plot_Værstasjoner)     {inputs: {…}, outputs: {…}}
+26270.8cfeb13b.js:184 [messaging]: Executing operation "_printing.get-print-service-url"
+26270.8cfeb13b.js:184 [events]: Event workflow.workflow-started published.
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::RunCommand (260)     {inputs: {…}, outputs: {…}}
+26270.8cfeb13b.js:184 [messaging]: Executing command "highlights.clear"
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::RunCommand (260) --> {inputs: {…}, outputs: undefined}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:arcgis::ClearGraphicsLayer (290)     {inputs: {…}, outputs: {…}}
+26270.8cfeb13b.js:184 [messaging]: Executing command "map.clear-markup"
+95266.e3ba4c50.chunk.js:1     gcx:wf:arcgis::ClearGraphicsLayer (290) --> {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::RunCommand (386)     {inputs: {…}, outputs: {…}}
+26270.8cfeb13b.js:184 [messaging]: Executing command "ui.display-busy-state"
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::RunCommand (386) --> {inputs: {…}, outputs: undefined}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Container (4)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($apiKey)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($plottNavn)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:arcgis::GetMap ($map1)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1     gcx:wf:arcgis::GetMap ($map1) --> {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($stasjoner)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::GetWorkflowInputs ($getWorkflowInputs2)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::GetApplicationData ($plotSettings)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::GetApplicationData ($plotSettings) --> {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($url_plot_Aktiver)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($url_plot_frost)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::GetApplicationData ($dateSettings)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::GetApplicationData ($dateSettings) --> {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::GetApplicationData ($layerSettings)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::GetApplicationData ($layerSettings) --> {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Evaluate ($evaluate2)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($datoVerdier)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::If (491)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::SetProperty (506)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::If (717)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::SetProperty (719)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Container (4)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::If (156)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($unikeStasjoner)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core:subworkflow:RunSubworkflow ($executeFunctionHentPlotFane)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Subworkflow ($functionHentPlotFane)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::RunWorkflow ($run_plot_Aktiver)     {inputs: {…}, outputs: {…}}
+26270.8cfeb13b.js:184 [messaging]: Executing operation "_printing.get-print-service-url"
+26270.8cfeb13b.js:184 [events]: Event workflow.workflow-started published.
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::GetWorkflowInputs ($getWorkflowInputs1)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::GetApplicationData ($plotSettings)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::GetApplicationData ($plotSettings) --> {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($existingPlotIndex)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::If (41)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($freeTab)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core:loop:ForEach ($tab)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::If (33)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::SetProperty (35)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core:loop:ForEach ($tab)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::If (19)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Evaluate ($createId)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Evaluate ($activatePlot)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::RunOperation ($currentLayout)     {inputs: {…}, outputs: {…}}
+26270.8cfeb13b.js:184 [messaging]: Executing operation "viewer.get-current-layout"
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::RunOperation ($currentLayout) --> {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($plotPanelComponent)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::SetProperty (64)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::SetWorkflowOutput (23)     {inputs: {…}, outputs: {…}}
+26270.8cfeb13b.js:184 [events]: Event workflow.workflow-finished published.
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::RunWorkflow ($run_plot_Aktiver)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::If (511)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($plot)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Evaluate ($evaluateSetResultPlotFane)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Subworkflow ($functionHentPlotFane)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core:subworkflow:RunSubworkflow ($executeFunctionHentPlotFane)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($værstasjonsPlotsettings)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Evaluate ($evaluateWindow)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::If (732)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Evaluate ($apiQuery)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core:request:WebRequest ($webRequestAlle)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1     gcx:wf:core:request:WebRequest ($webRequestAlle) --> {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($chartDefinisjon)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::RunCommand (180)     {inputs: {…}, outputs: {…}}
+26270.8cfeb13b.js:184 [messaging]: Executing command "charts.update-definition"
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::RunCommand (180) --> {inputs: {…}, outputs: undefined}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::RunCommand (174)     {inputs: {…}, outputs: {…}}
+26270.8cfeb13b.js:184 [messaging]: Executing command "ui.activate"
+1326270.8cfeb13b.js:184 [events]: Event ui.activated published.
+26270.8cfeb13b.js:184 [events]: Event charts.update-definition-can-execute-changed published.
+426270.8cfeb13b.js:184 [events]: Event ui.ancestor-activated published.
+26270.8cfeb13b.js:184 [events]: Event ui.activate-can-execute-changed published.
+26270.8cfeb13b.js:184 [events]: Event ui.deactivate-can-execute-changed published.
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::RunCommand (174) --> {inputs: {…}, outputs: undefined}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::RunCommand (172)     {inputs: {…}, outputs: {…}}
+26270.8cfeb13b.js:184 [messaging]: Executing command "ui.hide-busy-state"
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::RunCommand (172) --> {inputs: {…}, outputs: undefined}
+26270.8cfeb13b.js:184 [events]: Event workflow.workflow-finished published.
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::RunWorkflow ($run_plot_Værstasjoner)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Container (92)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Container (100)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Container (39)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::GetApplicationData ($resultSettings)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::GetApplicationData ($resultSettings) --> {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Evaluate ($saveContext)     {inputs: {…}, outputs: {…}}
+26270.8cfeb13b.js:184 [events]: Event workflow.workflow-finished published.
+26270.8cfeb13b.js:184 [messaging]: Executing command "ui.deactivate"
+26270.8cfeb13b.js:184 [events]: Event ui.activate-can-execute-changed published.
+26270.8cfeb13b.js:184 [events]: Event ui.deactivate-can-execute-changed published.
+26270.8cfeb13b.js:184 [messaging]: Executing command "_studio-analytics.track-event"
+26270.8cfeb13b.js:184 [events]: Event map.viewpoint-changed published.
+26270.8cfeb13b.js:184 [messaging]: Executing command "workflow.run"
+26270.8cfeb13b.js:184 [messaging]: Executing command "_studio-analytics.track-event"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "_printing.get-print-service-url"
+26270.8cfeb13b.js:184 [events]: Event workflow.workflow-started published.
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Container (10)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($url_Netatmo)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::GetApplicationData ($skjemaMålinger)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::GetApplicationData ($skjemaMålinger) --> {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($netatmoEnabled)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($målingerEnabled)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::If (17)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Container (10)     {inputs: {…}, outputs: {…}}
+26270.8cfeb13b.js:184 [events]: Event workflow.workflow-finished published.
+26270.8cfeb13b.js:184 [messaging]: Executing command "ui.deactivate"
+26270.8cfeb13b.js:184 [events]: Event ui.activate-can-execute-changed published.
+26270.8cfeb13b.js:184 [events]: Event ui.deactivate-can-execute-changed published.
+26270.8cfeb13b.js:184 [messaging]: Executing command "_studio-analytics.track-event"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.from-graphics"
+26270.8cfeb13b.js:184 [messaging]: Executing command "highlights.add"
+26270.8cfeb13b.js:184 [events]: Event map.zoom-to-previous-viewpoint-can-execute-changed published.
+26270.8cfeb13b.js:184 [events]: Event map.go-to-previous-viewpoint-can-execute-changed published.
+26270.8cfeb13b.js:184 [messaging]: Executing command "highlights.add"
+VM2067:7 Aktive vêrstasjonar: ['SN57380']
+26270.8cfeb13b.js:184 [messaging]: Executing command "ui.narrate"
+26270.8cfeb13b.js:184 [messaging]: Executing command "workflow.run"
+26270.8cfeb13b.js:184 [messaging]: Executing command "_studio-analytics.track-event"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "_printing.get-print-service-url"
+26270.8cfeb13b.js:184 [events]: Event workflow.workflow-started published.
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::GetWorkflowInputs ($getWorkflowInputs1)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::GetApplicationData ($layerSettings)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::GetApplicationData ($layerSettings) --> {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::RunOperation ($identify)     {inputs: {…}, outputs: {…}}
+26270.8cfeb13b.js:184 [messaging]: Executing operation "tasks.identify"
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::RunOperation ($identify) --> {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::RunOperation ($graphics)     {inputs: {…}, outputs: {…}}
+226270.8cfeb13b.js:184 [messaging]: Executing command "_studio-analytics.track-event"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.to-graphics"
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::RunOperation ($graphics) --> {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Container (132)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($filters)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Evaluate ($subset)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Container (132)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::If (11)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::If (17)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Container (39)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Container (100)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::GetApplicationData ($plotSettings)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::GetApplicationData ($plotSettings) --> {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Container (92)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($id)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::If (154)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($value1)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Evaluate ($stasjoner_graphics)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($parameterMap)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Evaluate ($parametereFraAktivtLag)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::If (187)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($stasjonerMedAktivParameter)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::SetProperty (197)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::RunWorkflow ($run_plot_Værstasjoner)     {inputs: {…}, outputs: {…}}
+26270.8cfeb13b.js:184 [messaging]: Executing operation "_printing.get-print-service-url"
+26270.8cfeb13b.js:184 [events]: Event workflow.workflow-started published.
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::RunCommand (260)     {inputs: {…}, outputs: {…}}
+26270.8cfeb13b.js:184 [messaging]: Executing command "highlights.clear"
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::RunCommand (260) --> {inputs: {…}, outputs: undefined}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:arcgis::ClearGraphicsLayer (290)     {inputs: {…}, outputs: {…}}
+26270.8cfeb13b.js:184 [messaging]: Executing command "map.clear-markup"
+95266.e3ba4c50.chunk.js:1     gcx:wf:arcgis::ClearGraphicsLayer (290) --> {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::RunCommand (386)     {inputs: {…}, outputs: {…}}
+26270.8cfeb13b.js:184 [messaging]: Executing command "ui.display-busy-state"
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::RunCommand (386) --> {inputs: {…}, outputs: undefined}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Container (4)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($apiKey)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($plottNavn)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:arcgis::GetMap ($map1)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1     gcx:wf:arcgis::GetMap ($map1) --> {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($stasjoner)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::GetWorkflowInputs ($getWorkflowInputs2)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::GetApplicationData ($plotSettings)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::GetApplicationData ($plotSettings) --> {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($url_plot_Aktiver)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($url_plot_frost)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::GetApplicationData ($dateSettings)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::GetApplicationData ($dateSettings) --> {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::GetApplicationData ($layerSettings)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::GetApplicationData ($layerSettings) --> {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Evaluate ($evaluate2)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($datoVerdier)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::If (491)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::SetProperty (506)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::If (717)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::SetProperty (719)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Container (4)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::If (156)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::If (185)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::SetProperty (193)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($værstasjonsPlotsettings)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Evaluate ($evaluateWindow)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::If (732)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Evaluate ($apiQuery)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core:request:WebRequest ($webRequestAlle)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1     gcx:wf:core:request:WebRequest ($webRequestAlle) --> {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::CreateValue ($chartDefinisjon)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::RunCommand (180)     {inputs: {…}, outputs: {…}}
+26270.8cfeb13b.js:184 [messaging]: Executing command "charts.update-definition"
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::RunCommand (180) --> {inputs: {…}, outputs: undefined}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::RunCommand (174)     {inputs: {…}, outputs: {…}}
+26270.8cfeb13b.js:184 [messaging]: Executing command "ui.activate"
+1726270.8cfeb13b.js:184 [events]: Event ui.activated published.
+26270.8cfeb13b.js:184 [events]: Event charts.update-definition-can-execute-changed published.
+26270.8cfeb13b.js:184 [events]: Event ui.activate-can-execute-changed published.
+26270.8cfeb13b.js:184 [events]: Event ui.deactivate-can-execute-changed published.
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::RunCommand (174) --> {inputs: {…}, outputs: undefined}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::RunCommand (172)     {inputs: {…}, outputs: {…}}
+26270.8cfeb13b.js:184 [messaging]: Executing command "ui.hide-busy-state"
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::RunCommand (172) --> {inputs: {…}, outputs: undefined}
+26270.8cfeb13b.js:184 [events]: Event workflow.workflow-finished published.
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::RunWorkflow ($run_plot_Værstasjoner)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Container (92)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Container (100)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Container (39)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::GetApplicationData ($resultSettings)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::GetApplicationData ($resultSettings) --> {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Evaluate ($saveContext)     {inputs: {…}, outputs: {…}}
+26270.8cfeb13b.js:184 [events]: Event workflow.workflow-finished published.
+26270.8cfeb13b.js:184 [messaging]: Executing command "ui.deactivate"
+26270.8cfeb13b.js:184 [events]: Event ui.activate-can-execute-changed published.
+26270.8cfeb13b.js:184 [events]: Event ui.deactivate-can-execute-changed published.
+26270.8cfeb13b.js:184 [messaging]: Executing command "_studio-analytics.track-event"
+26270.8cfeb13b.js:184 [messaging]: Executing command "ui.narrate"
