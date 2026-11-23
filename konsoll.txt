@@ -1,5 +1,40 @@
+[events]: Event charts.update-definition-can-execute-changed published.
+26270.8cfeb13b.js:184 [events]: Event ui.activate-can-execute-changed published.
+26270.8cfeb13b.js:184 [events]: Event ui.deactivate-can-execute-changed published.
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::RunCommand (174) --> {inputs: {…}, outputs: undefined}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::RunCommand (172)     {inputs: {…}, outputs: {…}}
+26270.8cfeb13b.js:184 [messaging]: Executing command "ui.hide-busy-state"
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::RunCommand (172) --> {inputs: {…}, outputs: undefined}
+26270.8cfeb13b.js:184 [events]: Event workflow.workflow-finished published.
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::RunWorkflow ($run_plot_Værstasjoner)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Container (92)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Container (100)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Container (39)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:app::GetApplicationData ($resultSettings)     {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1     gcx:wf:app::GetApplicationData ($resultSettings) --> {inputs: {…}, outputs: {…}}
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::Evaluate ($saveContext)     {inputs: {…}, outputs: {…}}
+26270.8cfeb13b.js:184 [events]: Event workflow.workflow-finished published.
+95266.e3ba4c50.chunk.js:1 --> gcx:wf:core::RunWorkflow ($run_identify1)     {inputs: {…}, outputs: {…}}
+26270.8cfeb13b.js:184 [events]: Event workflow.workflow-finished published.
+26270.8cfeb13b.js:184 [messaging]: Executing command "ui.deactivate"
+26270.8cfeb13b.js:184 [events]: Event ui.activate-can-execute-changed published.
+26270.8cfeb13b.js:184 [events]: Event ui.deactivate-can-execute-changed published.
+26270.8cfeb13b.js:184 [messaging]: Executing command "_studio-analytics.track-event"
+26270.8cfeb13b.js:184 [messaging]: Executing command "ui.narrate"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.from-graphics"
+26270.8cfeb13b.js:184 [messaging]: Executing command "highlights.remove"
+226270.8cfeb13b.js:184 [messaging]: Executing command "highlights.add"
+VM6422:7 Aktive vêrstasjonar: ['SN55705']
+VM6422:7 weather-station-selected: []
 VM7229:844 Uncaught TypeError: Cannot read properties of undefined (reading 'appendChild')
     at switchToAllStationsParameter (eval at l (903.7c567ff6.chunk.js:1:73050), <anonymous>:844:14)
     at rh.onclick (eval at l (903.7c567ff6.chunk.js:1:73050), <anonymous>:631:17)
     at fi.h (exporting.9d777da7.chunk.js:1:12650)
     at SVGGElement.<anonymous> (71631.a4253bc4.chunk.js:1:66598)
+26270.8cfeb13b.js:184 [messaging]: Executing command "highlights.remove"
+VM6422:7 Aktive vêrstasjonar: []
+VM6422:7 weather-station-selected: ['SN55775']
+VM6422:7 weather-station-selected: []
+VM6422:7 weather-station-selected: ['SN55770']
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.from-graphics"
+226270.8cfeb13b.js:184 [messaging]: Executing command "highlights.add"
