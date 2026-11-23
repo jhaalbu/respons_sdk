@@ -113,6 +113,7 @@
 26270.8cfeb13b.js:184 [messaging]: Executing command "ui.activate"
 1326270.8cfeb13b.js:184 [events]: Event ui.activated published.
 26270.8cfeb13b.js:184 [events]: Event charts.update-definition-can-execute-changed published.
+26270.8cfeb13b.js:184 [events]: Event charts.get-features-can-execute-changed published.
 426270.8cfeb13b.js:184 [events]: Event ui.ancestor-activated published.
 26270.8cfeb13b.js:184 [events]: Event ui.activate-can-execute-changed published.
 26270.8cfeb13b.js:184 [events]: Event ui.deactivate-can-execute-changed published.
@@ -134,6 +135,7 @@
 26270.8cfeb13b.js:184 [events]: Event ui.deactivate-can-execute-changed published.
 26270.8cfeb13b.js:184 [messaging]: Executing command "_studio-analytics.track-event"
 26270.8cfeb13b.js:184 [events]: Event map.viewpoint-changed published.
+VM4410:7 weather-station-selected: ['SN55720']
 26270.8cfeb13b.js:184 [messaging]: Executing command "workflow.run"
 26270.8cfeb13b.js:184 [messaging]: Executing command "_studio-analytics.track-event"
 26270.8cfeb13b.js:184 [messaging]: Executing operation "_printing.get-print-service-url"
@@ -151,13 +153,101 @@
 26270.8cfeb13b.js:184 [events]: Event ui.activate-can-execute-changed published.
 26270.8cfeb13b.js:184 [events]: Event ui.deactivate-can-execute-changed published.
 26270.8cfeb13b.js:184 [messaging]: Executing command "_studio-analytics.track-event"
-26270.8cfeb13b.js:184 [messaging]: Executing operation "results.from-graphics"
-26270.8cfeb13b.js:184 [messaging]: Executing command "highlights.add"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "charts.get-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.get-active-features"
 26270.8cfeb13b.js:184 [events]: Event map.zoom-to-previous-viewpoint-can-execute-changed published.
 26270.8cfeb13b.js:184 [events]: Event map.go-to-previous-viewpoint-can-execute-changed published.
-26270.8cfeb13b.js:184 [messaging]: Executing command "highlights.add"
-VM2067:7 Aktive vêrstasjonar: ['SN57380']
+26270.8cfeb13b.js:184 [messaging]: Executing operation "charts.get-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.get-active-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "charts.get-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.get-active-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "charts.get-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.get-active-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "charts.get-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.get-active-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "charts.get-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.get-active-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "charts.get-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.get-active-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "charts.get-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.get-active-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "charts.get-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.get-active-features"
 26270.8cfeb13b.js:184 [messaging]: Executing command "ui.narrate"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "charts.get-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.get-active-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "charts.get-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.get-active-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "charts.get-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.get-active-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "charts.get-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.get-active-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "charts.get-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.get-active-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "charts.get-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.get-active-features"
+VM4410:7 Ingen av dei valde stasjonane vart funne i kartlista: ['SN55720']
+highlightStations @ VM4410:7
+await in highlightStations
+eval @ VM4410:7
+Promise.then
+eval @ VM4410:7
+setTimeout
+onWorkflowFinished @ VM4410:7
+(anonymous) @ main.1f750eea.js:1
+(anonymous) @ 26270.8cfeb13b.js:184
+await in (anonymous)
+i @ 26270.8cfeb13b.js:184
+a @ 26270.8cfeb13b.js:184
+await in a
+u @ 26270.8cfeb13b.js:184
+publish @ main.1f750eea.js:1
+_executeWorkflowJson @ 95266.e3ba4c50.chunk.js:1
+await in _executeWorkflowJson
+(anonymous) @ 95266.e3ba4c50.chunk.js:1
+await in (anonymous)
+i @ 95266.e3ba4c50.chunk.js:1
+runWorkflow @ 95266.e3ba4c50.chunk.js:1
+executeWorkflow @ 95266.e3ba4c50.chunk.js:1
+await in executeWorkflow
+_executeWorkflow @ main.1f750eea.js:1
+await in _executeWorkflow
+_executeRunWorkflow @ main.1f750eea.js:1
+execute @ main.1f750eea.js:1
+l @ main.1f750eea.js:1
+execute @ main.1f750eea.js:1
+await in execute
+execute @ main.1f750eea.js:1
+execute @ main.1f750eea.js:1
+execute @ main.1f750eea.js:1
+await in execute
+(anonymous) @ 45663.6d39ced1.chunk.js:1
+(anonymous) @ main.1f750eea.js:1
+setTimeout
+(anonymous) @ main.1f750eea.js:1
+(anonymous) @ main.1f750eea.js:1
+(anonymous) @ 26270.8cfeb13b.js:184
+await in (anonymous)
+i @ 26270.8cfeb13b.js:184
+a @ 26270.8cfeb13b.js:184
+await in a
+u @ 26270.8cfeb13b.js:184
+publish @ main.1f750eea.js:1
+publish @ main.1f750eea.js:1
+(anonymous) @ 45663.6d39ced1.chunk.js:1
+(anonymous) @ 26270.8cfeb13b.js:184
+(anonymous) @ 26270.8cfeb13b.js:184
+o @ 26270.8cfeb13b.js:2
+notify @ 26270.8cfeb13b.js:2
+v @ 26270.8cfeb13b.js:2
+S @ 26270.8cfeb13b.js:2
+A @ 26270.8cfeb13b.js:2
+(anonymous) @ 26270.8cfeb13b.js:2
+requestAnimationFrame
+_ @ 26270.8cfeb13b.js:2
+resume @ 26270.8cfeb13b.js:2
+_invalidate @ 59771.423b09f5.chunk.js:1
+(anonymous) @ 59771.423b09f5.chunk.js:1
 26270.8cfeb13b.js:184 [messaging]: Executing command "workflow.run"
 26270.8cfeb13b.js:184 [messaging]: Executing command "_studio-analytics.track-event"
 26270.8cfeb13b.js:184 [messaging]: Executing operation "_printing.get-print-service-url"
@@ -243,6 +333,7 @@ VM2067:7 Aktive vêrstasjonar: ['SN57380']
 26270.8cfeb13b.js:184 [messaging]: Executing command "ui.activate"
 1726270.8cfeb13b.js:184 [events]: Event ui.activated published.
 26270.8cfeb13b.js:184 [events]: Event charts.update-definition-can-execute-changed published.
+26270.8cfeb13b.js:184 [events]: Event charts.get-features-can-execute-changed published.
 26270.8cfeb13b.js:184 [events]: Event ui.activate-can-execute-changed published.
 26270.8cfeb13b.js:184 [events]: Event ui.deactivate-can-execute-changed published.
 95266.e3ba4c50.chunk.js:1     gcx:wf:app::RunCommand (174) --> {inputs: {…}, outputs: undefined}
@@ -262,4 +353,27 @@ VM2067:7 Aktive vêrstasjonar: ['SN57380']
 26270.8cfeb13b.js:184 [events]: Event ui.activate-can-execute-changed published.
 26270.8cfeb13b.js:184 [events]: Event ui.deactivate-can-execute-changed published.
 26270.8cfeb13b.js:184 [messaging]: Executing command "_studio-analytics.track-event"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "charts.get-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.get-active-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "charts.get-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.get-active-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "charts.get-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.get-active-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "charts.get-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.get-active-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "charts.get-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.get-active-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "charts.get-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.get-active-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "charts.get-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.get-active-features"
 26270.8cfeb13b.js:184 [messaging]: Executing command "ui.narrate"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "charts.get-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.get-active-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "charts.get-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.get-active-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "charts.get-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.get-active-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "charts.get-features"
+26270.8cfeb13b.js:184 [messaging]: Executing operation "results.get-active-features"
+VM4410:7 Ingen av dei valde stasjonane vart funne i kartlista: ['SN55720']
