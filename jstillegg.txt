@@ -1,0 +1,40 @@
+function enableSingleStationHoverHighlight(chart, station) {
+  disableStationHoverHighlight(chart);
+
+  let lastSourceId = null;
+
+  function onMouseMove(event) {
+    const pos = chart.pointer.normalize(event);
+    const insidePlot =
+      pos.chartX >= chart.plotLeft &&
+      pos.chartX <= chart.plotLeft + chart.plotWidth &&
+      pos.chartY >= chart.plotTop &&
+      pos.chartY <= chart.plotTop + chart.plotHeight;
+
+    const sourceId = insidePlot ? station?.source_id : null;
+
+    if (sourceId === lastSourceId) {
+      return;
+    }
+
+    lastSourceId = sourceId;
+
+    if (sourceId) {
+      notifyStationSelected(station);
+    } else {
+      notifyStationsSelected([]);
+    }
+  }
+
+  function onMouseLeave() {
+    lastSourceId = null;
+    notifyStationsSelected([]);
+  }
+
+  chart.container.addEventListener("mousemove", onMouseMove);
+  chart.container.addEventListener("mouseleave", onMouseLeave);
+  chart.weatherHoverHandlers = { move: onMouseMove, leave: onMouseLeave };
+}
+
+chart.redraw();
+enableSingleStationHoverHighlight(chart, api.station);
